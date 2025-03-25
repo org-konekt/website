@@ -1,12 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XtraReportsLayoutSerializer SerializerVersion="23.2.6.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v23.2, Version=23.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report4" PageWidth="850" PageHeight="1100" Version="23.2" Font="Arial, 9.75pt">
+<XtraReportsLayoutSerializer SerializerVersion="24.2.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report4" PageWidth="850" PageHeight="1100" Version="24.2" DataSource="#Ref-0" Font="Arial, 9.75pt">
   <Bands>
-    <Item1 Ref="1" ControlType="TopMarginBand" Name="TopMargin">
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="3" ControlType="DetailBand" Name="Detail">
       <Controls>
-        <Item1 Ref="2" ControlType="XRLabel" Name="label1" Multiline="true" Text="Barcode Product Batch Template 1" SizeF="234.375,23" LocationFloat="127.083336,72.3958359" Padding="2,2,0,0,96" />
+        <Item1 Ref="4" ControlType="XRLabel" Name="label1" Multiline="true" Text="Ratios" SizeF="284.375,56.333336" LocationFloat="0,0" Font="Arial, 30.75pt, style=Bold" Padding="2,2,0,0,100">
+          <StylePriority Ref="5" UseFont="false" />
+        </Item1>
       </Controls>
-    </Item1>
-    <Item2 Ref="3" ControlType="DetailBand" Name="Detail" />
-    <Item3 Ref="4" ControlType="BottomMarginBand" Name="BottomMargin" />
+    </Item2>
+    <Item3 Ref="6" ControlType="BottomMarginBand" Name="BottomMargin" />
   </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" />
+  </ComponentStorage>
 </XtraReportsLayoutSerializer>

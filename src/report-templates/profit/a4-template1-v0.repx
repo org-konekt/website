@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="24.2.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v24.2, Version=24.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report4" PageWidth="850" PageHeight="1100" Version="24.2" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin">
+      <Controls>
+        <Item1 Ref="3" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" TextFormatString="Report created on {0:dd MMMM yyyy HH:mm}" TextAlignment="TopRight" SizeF="267.70834,23" LocationFloat="382.29166,76.999985" Padding="2,2,0,0,100">
+          <StylePriority Ref="4" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="5" ControlType="DetailBand" Name="Detail" HeightF="672.9167">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="label27" Multiline="true" Text="Net Profit" SizeF="100,23" LocationFloat="0,519.12476" Padding="2,2,0,0,96" />
+        <Item2 Ref="7" ControlType="XRLabel" Name="label26" Multiline="true" Text="Total Expenses" SizeF="100,23" LocationFloat="0,496.1248" Padding="2,2,0,0,96" />
+        <Item3 Ref="8" ControlType="XRLabel" Name="label25" Multiline="true" Text="Software" SizeF="100,23" LocationFloat="41.666668,473.12488" Padding="2,2,0,0,96" />
+        <Item4 Ref="9" ControlType="XRLabel" Name="label24" Multiline="true" Text="Office Supplies" SizeF="100,23" LocationFloat="41.666668,450.12488" Padding="2,2,0,0,96" />
+        <Item5 Ref="10" ControlType="XRLabel" Name="label23" Multiline="true" Text="Office xpenses and Postage" SizeF="188.54167,23" LocationFloat="20.833334,427.1249" Padding="2,2,0,0,96" />
+        <Item6 Ref="11" ControlType="XRLabel" Name="label22" Multiline="true" Text="Gross Profit" SizeF="100,23" LocationFloat="0,270.00006" Padding="2,2,0,0,96" />
+        <Item7 Ref="12" ControlType="XRLabel" Name="label21" Multiline="true" Text="Cost o Goods Sold" SizeF="137.5,23" LocationFloat="20.833334,247.00006" Padding="2,2,0,0,96" />
+        <Item8 Ref="13" ControlType="XRLabel" Name="label20" Multiline="true" Text="Invoice" SizeF="100,23" LocationFloat="41.666668,224.00005" Padding="2,2,0,0,96" />
+        <Item9 Ref="14" ControlType="XRLabel" Name="label19" Multiline="true" Text="Sales" SizeF="100,23" LocationFloat="20.833334,201.00003" Padding="2,2,0,0,96" />
+        <Item10 Ref="15" ControlType="XRLabel" Name="label18" Multiline="true" Text="label18" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,519.12476" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="16" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[NetProfit]" />
+          </ExpressionBindings>
+        </Item10>
+        <Item11 Ref="17" ControlType="XRLabel" Name="label17" Multiline="true" Text="label17" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,496.1248" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="18" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[TotalExpenses]" />
+          </ExpressionBindings>
+        </Item11>
+        <Item12 Ref="19" ControlType="XRLabel" Name="label16" Multiline="true" Text="label16" TextAlignment="TopRight" SizeF="100,23" LocationFloat="546.875,473.12482" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="20" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[Software]" />
+          </ExpressionBindings>
+        </Item12>
+        <Item13 Ref="21" ControlType="XRLabel" Name="label15" Multiline="true" Text="label15" TextAlignment="TopRight" SizeF="100,23" LocationFloat="546.875,450.12488" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="22" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[OfficeSupplies]" />
+          </ExpressionBindings>
+        </Item13>
+        <Item14 Ref="23" ControlType="XRLabel" Name="label14" Multiline="true" Text="label14" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,427.1249" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="24" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[OfficeExpensesAndPosage]" />
+          </ExpressionBindings>
+        </Item14>
+        <Item15 Ref="25" ControlType="XRLabel" Name="label13" Multiline="true" Text="label13" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,270.00006" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="26" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[GrossProfit]" />
+          </ExpressionBindings>
+        </Item15>
+        <Item16 Ref="27" ControlType="XRLabel" Name="label12" Multiline="true" Text="label12" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,247.00006" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="28" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[CostofGoodsSold]" />
+          </ExpressionBindings>
+        </Item16>
+        <Item17 Ref="29" ControlType="XRLabel" Name="label11" Multiline="true" Text="label11" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,224.00005" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[Invoice]" />
+          </ExpressionBindings>
+        </Item17>
+        <Item18 Ref="31" ControlType="XRLabel" Name="label10" Multiline="true" Text="label10" TextAlignment="TopRight" SizeF="100,23" LocationFloat="550,201.00003" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="32" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[Sales]" />
+          </ExpressionBindings>
+        </Item18>
+        <Item19 Ref="33" ControlType="XRLabel" Name="label9" Multiline="true" Text="Less Expenses" SizeF="100,23" LocationFloat="0,404.12497" Padding="2,2,0,0,96" />
+        <Item20 Ref="34" ControlType="XRLabel" Name="label8" Multiline="true" Text="Income (Billed)" SizeF="100,23" LocationFloat="0,176.00003" Padding="2,2,0,0,96" />
+        <Item21 Ref="35" ControlType="XRLine" Name="line1" SizeF="646.875,23" LocationFloat="0,134.375" />
+        <Item22 Ref="36" ControlType="XRLabel" Name="label7" Multiline="true" Text="label7" SizeF="297.91666,23" LocationFloat="348.95834,95.41661" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="37" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[Address]" />
+          </ExpressionBindings>
+        </Item22>
+        <Item23 Ref="38" ControlType="XRLabel" Name="label6" Multiline="true" Text="label6" SizeF="297.91666,23" LocationFloat="348.95834,70.58334" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[PhoneNumber]" />
+          </ExpressionBindings>
+        </Item23>
+        <Item24 Ref="40" ControlType="XRLabel" Name="label5" Multiline="true" Text="label5" SizeF="297.91666,23" LocationFloat="348.95834,47.583324" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="41" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[PAN]" />
+          </ExpressionBindings>
+        </Item24>
+        <Item25 Ref="42" ControlType="XRPictureBox" Name="pictureBox1" Sizing="ZoomImage" SizeF="100,100" LocationFloat="248.95833,24.58334">
+          <ExpressionBindings>
+            <Item1 Ref="43" EventName="BeforePrint" PropertyName="ImageSource" Expression="[Business].[Logo]" />
+          </ExpressionBindings>
+        </Item25>
+        <Item26 Ref="44" ControlType="XRLabel" Name="label4" Multiline="true" Text="label4" SizeF="297.91666,23" LocationFloat="348.95834,24.58334" Padding="2,2,0,0,96">
+          <ExpressionBindings>
+            <Item1 Ref="45" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[Name]" />
+          </ExpressionBindings>
+        </Item26>
+        <Item27 Ref="46" ControlType="XRLabel" Name="label3" TextFormatString="And Date {0:dd-MM-yyyy}" Multiline="true" SizeF="209.375,23.000004" LocationFloat="0,99.75008" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="47" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[ToDate]" />
+          </ExpressionBindings>
+        </Item27>
+        <Item28 Ref="48" ControlType="XRLabel" Name="label2" TextFormatString="Between Date {0:dd-MM-yyyy}" Multiline="true" SizeF="209.375,23.000004" LocationFloat="0,76.75005" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="49" EventName="BeforePrint" PropertyName="Text" Expression="[Profit].[FromDate]" />
+          </ExpressionBindings>
+        </Item28>
+        <Item29 Ref="50" ControlType="XRLabel" Name="label1" Multiline="true" Text="Profit" SizeF="209.375,52.166702" LocationFloat="0,24.58334" Font="Arial, 30.75pt, style=Bold" ForeColor="RoyalBlue" Padding="2,2,0,0,100">
+          <StylePriority Ref="51" UseFont="false" UseForeColor="false" />
+        </Item29>
+      </Controls>
+    </Item2>
+    <Item3 Ref="52" ControlType="BottomMarginBand" Name="BottomMargin" />
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
