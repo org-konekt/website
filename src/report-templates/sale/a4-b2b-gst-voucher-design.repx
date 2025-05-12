@@ -266,25 +266,25 @@
         <Item2 Ref="129" ControlType="XRLine" Name="line1" SizeF="647.9167,3" LocationFloat="0,113.020836" ForeColor="Gainsboro" BorderColor="Transparent">
           <StylePriority Ref="130" UseForeColor="false" UseBorderColor="false" />
         </Item2>
-        <Item3 Ref="131" ControlType="XRLabel" Name="label46" TextFormatString="IFS Code: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label46" TextAlignment="MiddleLeft" SizeF="247.35175,20.062431" LocationFloat="6.3578285E-05,49.020893" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,96" BorderColor="Gainsboro" Borders="None">
+        <Item3 Ref="131" ControlType="XRLabel" Name="label46" TextFormatString="IFS Code: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label46" TextAlignment="MiddleLeft" SizeF="247.35175,20.062431" LocationFloat="6.3578285E-05,49.020893" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,100" BorderColor="Gainsboro" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="132" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[IFSCode]" />
           </ExpressionBindings>
           <StylePriority Ref="133" UseFont="false" UseBorderColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="134" ControlType="XRLabel" Name="label45" TextFormatString="Avvount Number: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label45" TextAlignment="MiddleLeft" SizeF="247.35168,22.999996" LocationFloat="0.000111262,69.08334" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,96" BorderColor="Gainsboro" Borders="None">
+        <Item4 Ref="134" ControlType="XRLabel" Name="label45" TextFormatString="Avvount Number: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label45" TextAlignment="MiddleLeft" SizeF="247.35168,22.999996" LocationFloat="0.000111262,69.08334" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,100" BorderColor="Gainsboro" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="135" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[AccountNumber]" />
           </ExpressionBindings>
           <StylePriority Ref="136" UseFont="false" UseBorderColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="137" ControlType="XRLabel" Name="label44" TextFormatString="Pay to: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label44" TextAlignment="MiddleLeft" SizeF="247.35175,22.999998" LocationFloat="0,26.020876" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,96" BorderColor="Gainsboro" Borders="None">
+        <Item5 Ref="137" ControlType="XRLabel" Name="label44" TextFormatString="Pay to: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label44" TextAlignment="MiddleLeft" SizeF="247.35175,22.999998" LocationFloat="0,26.020876" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,100" BorderColor="Gainsboro" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="138" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[AccountName]" />
           </ExpressionBindings>
           <StylePriority Ref="139" UseFont="false" UseBorderColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="140" ControlType="XRLabel" Name="label43" TextFormatString="Bank: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label43" TextAlignment="MiddleLeft" SizeF="247.35175,23" LocationFloat="6.3578285E-05,3.0208588" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,96" BorderColor="Gainsboro" Borders="None">
+        <Item6 Ref="140" ControlType="XRLabel" Name="label43" TextFormatString="Bank: &lt;b&gt;{0:C2}&lt;/b&gt;" Multiline="true" AllowMarkupText="true" Text="label43" TextAlignment="MiddleLeft" SizeF="247.35175,23" LocationFloat="6.3578285E-05,3.0208588" Font="Bahnschrift, 8.75pt" Padding="2,2,0,0,100" BorderColor="Gainsboro" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="141" EventName="BeforePrint" PropertyName="Text" Expression="[Business].[BankName]" />
           </ExpressionBindings>
