@@ -7,6 +7,6 @@ payment/a4-template1-v0.repx
 product-catalogue/a4-template1-v0.repx
 purchase/a4-template1-v0.repx
 purchase-return/a4-template1-v0.repx
-sale-b2b/a4-template1-v0.repx
-sale-b2c/a4-template1-v0.repx
+sale/a4-b2b-gst-voucher-design.repx
+sale/a4-template1-v0.repx
 sale-return/a4-template1-v0.repx
