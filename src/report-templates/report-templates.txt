@@ -1,2 +1,0 @@
-sale-b2b/a4-gst-voucher.repx
-sale-b2b/a4-gst-voucher-blue.repx
