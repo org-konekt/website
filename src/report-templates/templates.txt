@@ -19,6 +19,6 @@ Sale_CON_Roll57.repx
 Sale_CON_Roll80.repx
 Sale_CON_Roll110.repx
 Sale_GST_Bill.repx
-Sale_GST_Elnvoice.repx
+Sale_REG_Elnvoice.repx
 Sale_REG_Invoice.repx
 SaleReturn.repx
